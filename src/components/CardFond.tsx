@@ -5,9 +5,9 @@ type CardFondoProps={
   className?: string;
 }
 
-export default function CardFond({ children }:CardFondoProps) {
+export default function CardFond({ children, className}:CardFondoProps) {
   return (
- <div className="bg-[rgba(0,0,0,0.27)] p-5 rounded-lg my-5">
+    <div className={`bg-[rgba(0,0,0,0.27)] my-5 ${className ?? ""}`}>
       {children}
     </div>
 )
