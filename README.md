@@ -6,6 +6,11 @@ Incluye:
 - Pasos básicos de implementación  
 - Ejemplos prácticos (contador, lista de tareas, dark mode)  
 
+##  📸 Vista Previa
+![ScreenShot](./public/vistaPrevia.png)
+
+## Demo en vivo
+[Ver Proyecto](https://zustand-practice-rouge.vercel.app/)
 ## Tecnologías
 - React + Vite  
 - Zustand  
