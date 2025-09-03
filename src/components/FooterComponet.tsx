@@ -2,7 +2,7 @@
 export default function FooterComponet() {
   return (
     <div>
-           <footer className=" footer footer-horizontal footer-center bg-footer text-primary-content p-10">
+           <footer className=" footer footer-horizontal footer-center bg-blue-950 text-primary-content p-10">
   <aside>
   <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,5 @@
 import DefinicionZustand from "./components/DefinicionZustand"
+import Ejemplos from "./components/Ejemplos"
 import FooterComponet from "./components/FooterComponet"
 import NavbarComponent from "./components/NavbarComponent"
 import Pasos from "./components/Pasos"
@@ -18,6 +19,7 @@ function App() {
             </div>
             <DefinicionZustand />
             <Pasos />
+            <Ejemplos/>
           </div>
         </div>
 
