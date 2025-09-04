@@ -11,8 +11,9 @@ export default function Pasos() {
                 </CardFond>
             </div>
             <div className="bg-[#FBAE08] p-2 ">
-                <p className="text-lg">2. Crear un Store</p>
+                <p className="text-lg">2. Crear un Store: usando <span className="font-bold">create</span> y definiendo <span className="font-bold">estados</span> +<span className="font-bold"> acciones</span></p>
                 <CardFond className="p-2">
+                 
                     <pre className="overflow-x-auto">
                         <code className="font-mono text-sm">{`import { create } from "zustand";
 
@@ -29,7 +30,7 @@ create((set) => ({
                 </CardFond>
             </div>
             <div className="bg-[#E84A94] p-2 ">
-                <p className="text-lg">3. Usar el Hook</p>
+                <p className="text-lg">3. Usar el Hook: Importamos el store y lo usamos dentro del componente</p>
 
    <CardFond className="p-2">
           <pre className="overflow-x-auto">
