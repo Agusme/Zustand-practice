@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom";
 
 export default function NavbarComponent() {
     return (
         <div>
             <div className="navbar shadow-sm text-white">
                 <div className="flex-1">
-                    <a className="font-bold text-xl ">Zustand</a>
+                    <Link to='/' className="font-bold text-xl ">Zustand</Link>
                 </div>
        <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
-              <a>
+              <Link to='/'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -24,10 +25,14 @@ export default function NavbarComponent() {
                     d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                   />
                 </svg>
-              </a>
+              </Link>
             </li>
-            <li><a>Pasos</a></li>
-            <li><a>Ejemplos</a></li>
+            <li>
+            <a href="#pasos">
+            Pasos
+            </a>
+            </li>
+            <li><a href='#ejemplos'>Ejemplos</a></li>
           </ul>
         </div>
 
@@ -48,9 +53,9 @@ export default function NavbarComponent() {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-blue-950 rounded-box w-52 text-white"
           >
-            <li><a>Inicio</a></li>
-            <li><a>Pasos</a></li>
-            <li><a>Ejemplos</a></li>
+            <li><Link to="/">Inicio</Link></li>
+  <li><a href="#pasos">Pasos</a></li>
+  <li><Link to="/ejemplos">Ejemplos</Link></li>
           </ul>
         </div>
             </div>
