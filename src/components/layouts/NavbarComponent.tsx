@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 export default function NavbarComponent() {
-    return (
-        <div>
-            <div className="navbar shadow-sm text-white">
-                <div className="flex-1">
-                    <Link to='/' className="font-bold text-xl ">Zustand</Link>
-                </div>
-       <div className="hidden lg:flex">
+  return (
+    <div>
+      <div className="navbar shadow-sm text-white">
+        <div className="flex-1">
+          <Link to='/' className="font-bold text-xl ">Zustand</Link>
+        </div>
+        <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
               <Link to='/'>
@@ -29,11 +29,9 @@ export default function NavbarComponent() {
               </Link>
             </li>
             <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
-<li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
-          
+            <li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
           </ul>
         </div>
-
         {/* Menú hamburguesa en mobile */}
         <div className="dropdown dropdown-end lg:hidden">
           <label tabIndex={0} className="btn btn-ghost hover:bg-blue-950 hover:text-white hover:border-none hover:shadow-none focus:outline-none focus:ring-0 active:outline-none">
@@ -52,11 +50,11 @@ export default function NavbarComponent() {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-blue-950 rounded-box w-52 text-white"
           >
             <li><Link to="/">Inicio</Link></li>
-<li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
-<li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
-        </ul>
+            <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
+            <li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
+          </ul>
         </div>
-            </div>
-        </div>
-    )
+      </div>
+    </div>
+  )
 }

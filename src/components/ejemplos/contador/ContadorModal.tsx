@@ -8,7 +8,7 @@ export default function ContadorModal() {
 
   return (
     <div>
-     <h2 className="mt-3 mb-6">Demo Contador</h2>
+     <h2 className="mt-3 mb-6">Demo</h2>
    <div className="bg-[#05B5CC] p-6 rounded-xl shadow-lg max-w-sm mx-auto">
   <div className="flex items-center justify-center gap-6">
     <button 
