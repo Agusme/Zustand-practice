@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function NavbarComponent() {
     return (
@@ -27,12 +28,9 @@ export default function NavbarComponent() {
                 </svg>
               </Link>
             </li>
-            <li>
-            <a href="#pasos">
-            Pasos
-            </a>
-            </li>
-            <li><a href='#ejemplos'>Ejemplos</a></li>
+            <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
+<li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
+          
           </ul>
         </div>
 
@@ -54,9 +52,9 @@ export default function NavbarComponent() {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-blue-950 rounded-box w-52 text-white"
           >
             <li><Link to="/">Inicio</Link></li>
-  <li><a href="#pasos">Pasos</a></li>
-  <li><Link to="/ejemplos">Ejemplos</Link></li>
-          </ul>
+<li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
+<li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
+        </ul>
         </div>
             </div>
         </div>

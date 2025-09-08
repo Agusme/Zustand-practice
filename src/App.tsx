@@ -30,6 +30,10 @@ function App() {
               />
               <Route path="/contador-ejemplo" element={<EjemploContadorCodigo/>} />
             </Routes>
+            <Routes>
+              <Route path="/ejemplos" element={<Ejemplos/>} />
+
+            </Routes>
           </div>
         </div>
         <FooterComponet />

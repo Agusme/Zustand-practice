@@ -12,7 +12,6 @@ export default function Ejemplos() {
     <div id='ejemplos'>
       <h2 className="text-xl uppercase mt-8 mb-4">Ejemplos</h2>
       <div className="bg-footer my-5 px-5 py-16">
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <figure >
             <img src={contador} alt="contador" />
