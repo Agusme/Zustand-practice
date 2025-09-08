@@ -16,7 +16,7 @@ export default function Modal({title, children}:modalProps) {
     
         <div className="modal-box bg-footer">
             
-          <h3 className="font-bold text-lg">{title} </h3>
+          <h3 className="font-bold text-3xl">{title} </h3>
         {children}
 
           {/* Botón visible de cerrar */}
