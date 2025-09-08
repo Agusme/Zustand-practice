@@ -5,6 +5,7 @@ import DefinicionZustand from "./components/pages/DefinicionZustand"
 import Ejemplos from "./components/pages/Ejemplos"
 import Pasos from "./components/pages/Pasos"
 import EjemploContadorCodigo from "./components/ejemplos/contador/EjemploContadorCodigo"
+import TemaEjemplo from "./components/ejemplos/toggle/TemaEjemplo"
 
 
 
@@ -29,11 +30,10 @@ function App() {
                 }
               />
               <Route path="/contador-ejemplo" element={<EjemploContadorCodigo/>} />
-            </Routes>
-            <Routes>
+              <Route path="/tema-ejemplo" element={<TemaEjemplo/>} />
               <Route path="/ejemplos" element={<Ejemplos/>} />
-
             </Routes>
+
           </div>
         </div>
         <FooterComponet />
