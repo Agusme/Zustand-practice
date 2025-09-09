@@ -6,6 +6,7 @@ import Ejemplos from "./components/pages/Ejemplos"
 import Pasos from "./components/pages/Pasos"
 import EjemploContadorCodigo from "./components/ejemplos/contador/EjemploContadorCodigo"
 import TemaEjemplo from "./components/ejemplos/toggle/TemaEjemplo"
+import TareaEjemplo from "./components/ejemplos/tarea/TareaEjemplo"
 
 
 
@@ -32,6 +33,7 @@ function App() {
               <Route path="/contador-ejemplo" element={<EjemploContadorCodigo/>} />
               <Route path="/tema-ejemplo" element={<TemaEjemplo/>} />
               <Route path="/ejemplos" element={<Ejemplos/>} />
+           <Route path="tarea-ejemplo" element= {<TareaEjemplo/>} />
             </Routes>
 
           </div>
