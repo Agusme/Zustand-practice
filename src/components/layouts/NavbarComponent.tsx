@@ -28,8 +28,8 @@ export default function NavbarComponent() {
                 </svg>
               </Link>
             </li>
-            <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
             <li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
+            <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
           </ul>
         </div>
         {/* Menú hamburguesa en mobile */}
@@ -47,11 +47,11 @@ export default function NavbarComponent() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-blue-950 rounded-box w-52 text-white"
+            className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-blue-950 rounded-box w-52 text-lg text-white"
           >
             <li><Link to="/">Inicio</Link></li>
-            <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
             <li><HashLink smooth to="/#pasos">Pasos</HashLink></li>
+            <li><HashLink smooth to="/#ejemplos">Ejemplos</HashLink></li>
           </ul>
         </div>
       </div>
