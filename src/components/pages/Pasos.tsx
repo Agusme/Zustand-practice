@@ -3,7 +3,7 @@ import CardFond from "../common/CardFond";
 export default function Pasos() {
 
     return (
-        <div id="pasos">
+        <div id="pasos" >
             <h2 className="text-xl uppercase mt-10 mb-4">Pasos para usarlo</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-5">
             <div className="bg-[#05B5CC] p-2 ">
